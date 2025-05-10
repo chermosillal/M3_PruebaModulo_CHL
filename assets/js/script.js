@@ -52,6 +52,10 @@ const obtenerUltimosValores = async () => {
         }
     }
 
+//--------------------------------------------------------
+
+//FUNCIONES PARA EL GRAFICO
+
 // Función para resetear el canvas
 const resetCanvas = () => {
     const canvasContainer = document.querySelector(".grafico");
