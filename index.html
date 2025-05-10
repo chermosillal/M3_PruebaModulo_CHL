@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Prueba Modulo 3</title>
+</head>
+<body>
+    <div class="cuerpo">
+        <h1>Conversor de Monedas Nacional</h1>
+        <hr>
+        <div class="card">
+            <label >Pesos CLP</label>
+            <input type="text" id="monto" placeholder="Ingrese monto en CLP">
+            <label >Moneda a Convertir</label>
+            <select id="moneda">
+                <option value="">Seleccione Moneda</option>
+                <option value="dolar">Dólar</option>
+                <option value="uf">UF</option>
+                <option value="utm">UTM</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+            <button onclick="obtenerUltimosValores()">Consultar</button>
+            <label >Resultado:</label>
+            <label id="resultado" ></label>
+        </div>
+        <div class="grafico">
+            <canvas id="grafico"></canvas>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <br>
+    <label>creado por: <b>César Hermosilla Légent / Desarrollo Front End</b></label>
+</body>
+</html>

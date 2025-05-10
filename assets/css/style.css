@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la pantalla */
+    margin: 0;
+    background-color: #dddddd;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+}
+.cuerpo {
+    background: #333;
+    padding: 40px;
+    border-radius: 10px;
+    width: 600px;
+    color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 600px;
+    margin-bottom: 40px;
+}
+.card {
+    display: flex;
+    background: #666;
+    width: 300px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+input {
+    width: 250px; /* Ancho del input */
+    height: 30px; /* Alto del input */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra con difuminado */
+    border: 1px solid #ccc; /* Bordes para darle un acabado más elegante */
+    border-radius: 8px; /* Redondear las esquinas */
+    padding: 5px;
+    text-align: right; /* Alinea el texto a la derecha */
+    font-size: 20px;   /* Ajusta el tamaño del texto */
+    border: 5px solid #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+input:focus {
+    border: 5px solid #3e8d41; /* Cambia el color del borde a verde */
+    outline: none; /* Elimina el contorno predeterminado del navegador */
+}
+
+#moneda{
+    width: 250px; 
+    height: 40px; 
+    font-size: 20px; 
+    border-radius: 8px;
+    text-align: center;
+}
+    button {
+    width: 150px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    background-color: #3e8d41; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    border: none; /* Eliminar bordes */
+    border-radius: 8px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor a "mano" */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.8); /* Sombra más intensa al pasar el mouse */
+}
+#resultado{
+    font-size: 25px;
+    color:gold;
+}
+.grafico {
+    margin-top: 20px;
+    display: none;
+    background: #fff;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 560px;
+    flex-direction: column;
+    gap:20px;
+}
+.grafico label {
+    color:#333;
+    font-size: 14px;
+}
+.grafico img{
+    width: 550px;
+}
